@@ -3,8 +3,8 @@
 #include <string>
 #include <cctype>
 
-int main() {
-    std::ifstream inputFile("./input.txt");
+int main(int argc, char* argv[]) {
+    std::ifstream inputFile(argv[1]);
     std::string s;
     int sum = 0;
 
