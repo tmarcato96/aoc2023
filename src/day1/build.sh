@@ -1,3 +1,3 @@
 #!/bin/sh
 
-clang++ -Wall -o day1 day1.cpp
+clang++ -Wall -D PART_TWO -o day1 day1.cpp
